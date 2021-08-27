@@ -17,11 +17,11 @@ The model, along with its pretrained weights can be found in "model", the traini
 
 ## How training works
 Each image has a corresponding text file that keeps bounding box information that points the relative location of the object to be detected.
-A test and train text file must be created having the official paths for each image, these must be created by you.
+A test and train text file must be created that points to these images, these must be created by you. (You can split the test/train in a 50/50 manner)
 
-Then you must modify the detector.data file found in the models folder to point to these newly created files.
+Then you must modify the detector.data file found in the models folder to point to train and test text files.
 
-Once this has been done then its time to get pretrained weights and train the provided model with these pretrained weights. HINT: look at the src folder.
+Once this has been done then its time to get pretrained weights and train the provided model with these pretrained weights. HINT: scr folder has the run files.
 
 ## What to do?
 Read over the files in the repo carefully,
@@ -31,3 +31,5 @@ No prior experience with machine learning is nessesary, you will find that the i
 
 Send over your cloned repo to guy.garcia@upr.edu.
 As long as the training process starts and creates a log this is enough for evaluation.
+
+And as always, feel free to ask me anything or google for solutions, a good engineer is not afraid to ask questions ;)
